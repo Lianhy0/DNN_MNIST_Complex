@@ -1,0 +1,31 @@
+{
+ "exp_name": "MNIST_D2NN",
+
+ "DMD_pixel_num": 400,
+ "SLM_pixel_num": 400,
+ "SLM_padding_pixel_num": 1200,
+ "CAM_pixel_num": 518,
+ "SLM_pixel_size": 0.0000076,
+ "diffractive_distance": 0.1,
+ "wave_length": 0.000000640,
+ "nClass": 10,
+
+ "img_ratio": 0.2,
+ "train_batch_size": 10,
+ "test_batch_size": 1,
+ "train_shuffle": "True",
+ "test_shuffle": "False",
+
+ "test_picture_num": 10000,
+ "train_picture_num": 60000,
+ "gamma": 0,
+ "device": "cpu",
+
+ "learning_rate": 0.01,
+ "num_epochs": 15,
+
+ "train_img_root": "C:/Users/yjs/Desktop/expData/MNIST-NoSc/result/layer3/train/exp/",
+ "train_label_root": "C:/Users/yjs/Desktop/MNIST-Complex/Benchmark/data/MNIST/raw/",
+ "test_img_root": "C:/Users/yjs/Desktop/expData/MNIST-NoSc/result/layer3/test/exp/",
+ "test_label_root": "C:/Users/yjs/Desktop/MNIST-Complex/Benchmark/data/MNIST/raw/"
+}
